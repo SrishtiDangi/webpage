@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>NetWorld</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+    <!-- MENU ICON -->
+
+<div class="menu-icon"
+     onclick="toggleSidebar()">
+
+    ☰
+
+</div>
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar" id="sidebar">
+
+        <h2>Dashboard</h2>
+
+        <ul>
+
+            <li>Home</li>
+            <li>Gallery</li>
+            <li>Videos</li>
+            <li>Settings</li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+
+    <div class="main">
+
+        <!-- NAVBAR -->
+
+        <div class="navbar">
+
+            <h1>Computer Networks</h1>
+
+            <button onclick="darkMode()">
+
+                Dark Mode
+
+            </button>
+
+        </div>
+
+
+        <!-- CARDS -->
+
+        <div class="cards">
+
+            <!-- IMAGE CARD -->
+
+            <div class="card">
+
+                <img src="photo_f.jpg">
+
+                <h3>Network Diagram</h3>
+
+            </div>
+
+
+            <!-- VIDEO CARD -->
+
+            <div class="card">
+
+                <video controls>
+
+                    <source src="Recording 2024-11-27 160336.mp4"
+                            type="video/mp4">
+
+                </video>
+
+                <h3>Networking Tutorial</h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
